@@ -1,0 +1,66 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\title{Ata reunião}
+\author{
+    Presentes:\\
+    Carlos Henrique Coelho Miyazawa\\
+    Gabriel Jooji Yamashiro\\
+    Guilherme Birta de Souza\\
+    Luiz Eduardo Araujo Zucchi\\
+    Marco Antonio Steck Filho\\
+    Vitor Hugo Nascimento Silva
+}
+\date{\today}
+
+\begin{document}
+    \maketitle
+    \newpage
+
+    \section{O que foi discutido}
+        \paragraph{}
+        Primeiramente foi discutida a parte mecânica do robô. Como havia sido decidido antes a arma do robô será uma lâmina giratória em sua frente e sua carcaça será triangular com apenas duas rodas, possibilitando um fácil controle não importando o lado no qual o robô está virado. O robô teria $30cm$ de largura, $40cm$ de comprimento(ponta a ponta) e sua altura 10cm. Foi discutida a possibilidade de se colocar um apoio de baixo atrito na estrutura triangular frontal do robô.
+
+        \paragraph{}
+        Segundamente foi discutida a parte elétrica do robô. A bateria a ser utilizada foi decidida como sendo a bateria LiPo(Lythium Polymer) de 24V. Uma ponte H será utilizada para reverte a direção do motor caso necessário, como por exemplo quando este for virado durante a luta. Foi levantada a possibilidade de se usar um motor no dobro de sua tensão de funcionamento comum, pois se utilizado por um curto período de tempo(o tempo da competição) não daria problema(esta ideia ainda será desenvolvida). Como placa de controle decidimos pela placa Scorpion XL que foi feita especificamente para robôs de luta. Para o motor da arma utilizaremos um acoplador para que este possa controlar a arma por meio de uma correia de dentro da carcaça protegida.
+
+        \paragraph{}
+        Por fim foi apresentado para o grupo o documento com o protocolo definido pelos membros da parte computacional para a comunicação entre as placas externas e internas.
+
+    \newpage
+    \section{A fazer}
+        \paragraph{}
+        Por último foi compilada a seguinte lista do que cada parte deve fazer até o próximo encontro.
+        \begin{itemize}
+            \item Computação:
+            \begin{itemize}
+                \item Determinar o algorítimo da parte interna.
+                \item Se comunicar com a elétrica para saber as potências necessárias para o controle de cada motor.
+                \item Programar o algorítmo da parte externa, que já foi determinado.
+            \end{itemize}
+
+            \item Elétrica:
+            \begin{itemize}
+                \item Terminar o sistema de comunicação.
+                \item Determinar o sistema de controle de motores.
+                \item Determinar se o motor utilizará redutor.
+                \item Enviar para a parte mecânica o peso dos componentes.
+            \end{itemize}
+
+            \item Mecânica:
+            \begin{itemize}
+                \item Desenhar a armadura.
+                \item Determinar dimensões, peso e material da arma
+                \item Determinar material da armadura.
+                \item Determinar material da roda.
+            \end{itemize}
+        \end{itemize}
+
+\end{document}
