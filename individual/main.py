@@ -1,6 +1,10 @@
+# main.py
+# Autor: Marco Antonio Steck Filho
+# Data: 03/04/2017
+
 def otsus_method(matrix):
     # Retorna um threshold para ser utilizado para se criar a imagem binária pelo método de Otsu. Matrix deve ser uma
-    # imagem em escala de cinza. Este método não é tão computacionalmente intensivo
+    # imagem em escala de cinza. Este método não é tão computacionalmente intensivo.
 
     # Calcula o histograma de intensidades.
     histogram = [0 for _ in range(256)] # inicializa o histograma para o intervalo [0-255]
